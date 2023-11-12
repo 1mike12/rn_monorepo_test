@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 
 import {bonjour, bonjourFunction} from "../shared/sharedConstants";
-// import {SharedClass} from "../shared/SharedClass";
+import {SharedClass} from "../shared/SharedClass";
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -20,7 +20,7 @@ function App(): JSX.Element {
       />
       <Text>{bonjour}</Text>
       <Text>{text}</Text>
-      {/*<Text>{SharedClass.greeting}</Text>*/}
+      <Text>{SharedClass.greeting}</Text>
       <Text></Text>
     </SafeAreaView>
   );
