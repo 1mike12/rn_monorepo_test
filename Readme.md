@@ -22,3 +22,5 @@ However when importing `SharedClass` from `shared/SharedClass.ts` in `App.tsx` i
   3 | }
   4 |]
 ```
+
+But installing `@babel/runtime` as a dev dependency fixes the issue. 
